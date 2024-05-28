@@ -5,12 +5,7 @@
   <div class="date">{{ post.published_date }}</div>
   <h1><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h1>
   <p>{{ post.text|linebreaksbr }}</p>
-<<<<<<< HEAD
   <img src="{{post.image.url}}" class"rounded intruder-image-list" alt="{{post.title}}">
 </div>
 {% endfor %} 
 {% endblock %}
-=======
-</div>
-{% endfor %} {% endblock %}
->>>>>>> bd0b1c8a7a387589bb877ec40704fb2eda2e768c
