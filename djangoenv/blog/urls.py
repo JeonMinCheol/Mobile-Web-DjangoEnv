@@ -11,8 +11,4 @@ urlpatterns = [
 ]
 
 urlpatterns+= static(settings.STATIC_URL,document_root=settings.STATIC_ROOT)
-<<<<<<< HEAD
 urlpatterns+= static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-=======
-urlpatterns+= static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
->>>>>>> 42ad12243e352767096b05e95ad728fe40a51acb
